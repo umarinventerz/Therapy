@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/*
+ * jQuery File Upload Plugin CSS Example
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+.pswd_inf{
+    display:none;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+        box-shadow: 5px 5px 15px 5px #000000;
+ 
+    margin-top: 42px;
+    padding: 4px 7px 4px 11px;
+}
+#pswd_info{
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+ 
+    margin-top: 42px;
+    padding: 4px 7px 4px 11px;
+    background: #fff;
+    position: absolute;
+}
+
+/*#pswd_info::before {content: "\25B2";position:absolute;top:-12px;left:45%;font-size:14px;line-height:14px;color:#ddd;text-shadow:none;display:block;}*/
+
+#pswd_info ul{list-style: none;     margin-left: 19px;}
+
+#pswd_info h4 {margin:0 0 10px 0;padding:0;font-weight:normal; color:#000; font-size: 12px;}
+.invalid{
+    list-style-image: url(images/invalid.png);
+}
+.valid{
+    list-style-image: url(images/valid.png);    
+}
+.payment-type{
+    display: none;
+}
+.employee-images{
+    overflow: hidden;
+    
+}
+.employee-images img{
+    width:120px;
+    margin: 9px;
+    -webkit-box-shadow: 1px 2px 9px 9px #989898; 
+    box-shadow: 1px 2px 9px 9px #989898;
+    
+}
+.personal-information{
+        padding: 20px;
+    border: 2px solid #ccc6c6;
+}
